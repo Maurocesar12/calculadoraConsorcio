@@ -1,0 +1,25 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/styles/style.css">
+<div class="container">
+    <h1>Calculadora de Consórcio</h1><br>
+    <span>Qual o valor do bem?</span><br><br>
+    <div class="input-wrapper">
+    <span class="currency">R$</span>
+    <input type="text" id="valor-bem" oninput="formatarValor(this)">
+    </div>
+    <div>
+    <button class="tipo-bem" onclick="selecionarTipoBem(this)" data-value="automovel">Automóvel</button>
+    <button class="tipo-bem" onclick="selecionarTipoBem(this)" data-value="imovel">Imóvel</button>
+    </div>
+    <div>
+    <label for="parcelas" style="font-size: 16px;">Quantidade de Parcelas:</label>
+    <input type="number" id="parcelas" min="1">
+    </div>
+    <button class="calcular" onclick="calcularParcelas()">Calcular</button>
+    <button class="reset" onclick="resetCalculadora()">Limpar</button>
+    
+    <div id="resultado"></div>
+    </div>
+    <script src="/src/script/index.js"></script>

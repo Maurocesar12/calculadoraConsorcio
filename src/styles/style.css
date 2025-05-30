@@ -1,0 +1,80 @@
+    *{
+            font-family: "Montserrat",sans-serif;
+    }
+    .container {
+    max-width: 716px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background: linear-gradient(135deg, rgba(118, 118, 236, 0.616), rgba(43, 64, 223, 0.8));
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    }
+    .container h1{
+    font-size: 24px;
+    margin: 0 auto;
+    text-align:center;
+    }
+    .container span{
+    padding:1%;
+    font-size: 18px;
+    }
+    .calcular{
+    margin-top:2%;
+    }
+    .input-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+    }
+    
+    .currency {
+    padding: 5px 10px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-weight: bold;
+    }
+    
+    .input-wrapper input {
+    flex: 1;
+    border: none;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif
+    }
+    
+    .tipo-bem {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    }
+    
+    .tipo-bem.selected {
+    background-color: #888888;
+    color: #fff;
+    }
+    
+    button {
+    background-color: #30499D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    }
+    
+    button:hover {
+    background-color: #30499D;
+    }
+    h2{
+        font-size: 16px;
+    }
+    p{
+        font-size: 16px;
+    }
+    
+    </style>
